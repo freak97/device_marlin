@@ -628,3 +628,7 @@ PRODUCT_PACKAGES += \
     libbacktrace.vndk-sp\
     libunwind.vndk-sp\
     liblzma.vndk-sp\
+
+# Pixel Experience
+PRODUCT_COPY_FILES += \
+    device/google/marlin/nexus.xml:system/etc/sysconfig/nexus.xml
