@@ -443,4 +443,9 @@
 
      <!-- True if Unprocessed audio source supports the required frequency range and level -->
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
+
+    <!-- Disable Project Fi app until a Fi SIM is inserted. -->
+    <string-array name="config_disabledUntilUsedPreinstalledCarrierApps">
+        <item>com.google.android.apps.tycho</item>
+    </string-array>
 </resources>
