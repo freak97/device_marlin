@@ -632,3 +632,9 @@ PRODUCT_PACKAGES += \
 # Pixel Experience
 PRODUCT_COPY_FILES += \
     device/google/marlin/nexus.xml:system/etc/sysconfig/nexus.xml
+
+# IMS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
